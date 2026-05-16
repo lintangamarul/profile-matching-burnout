@@ -46,6 +46,22 @@ Install requirements with:
 pip install pandas numpy matplotlib scikit-learn ipywidgets joblib
 ```
 
+## Dataset
+The dataset used in this project is available on Kaggle:
+
+**📊 [Digital Burnout and Productivity Analytics](https://www.kaggle.com/datasets/aiexplorer77/digital-burnout-and-productivity-analytics)**
+
+- **Size:** 5 Million records × 34 columns
+- **Features:** Digital behavior metrics, sleep quality, work performance, lifestyle factors, and demographic information
+- **Target Variables:** Burnout risk (0–100 score), Productivity category (High/Medium/Low)
+- **Format:** CSV
+
+To use this dataset:
+1. Visit the Kaggle link above
+2. Click **"Download"** to get `digital_burnout_productivity_dataset.csv`
+3. Place the CSV file in the same directory as `main.ipynb`
+4. Run the notebook cells to train models and launch the dashboard
+
 ## Usage
 1. Clone this repository and ensure all files are in the same directory:
    - `main.ipynb` — Main analysis notebook
